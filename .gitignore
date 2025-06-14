@@ -1,0 +1,72 @@
+## Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.app
+*.log
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio
+.vscode/
+.vs/
+*.dbmdl
+*.psess
+*.vsp
+*.pdb
+*.pidb
+
+## Rider
+.idea/
+
+## ASP.NET Publish
+publish/
+*.Publish.xml
+
+## dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+*.psmdcp
+
+## Logs
+*.log
+*.tlog
+
+## npm / frontend
+node_modules/
+dist/
+wwwroot/lib/
+
+## Environment files
+.env
+.env.*
+
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Coverage / test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## Others
+_ReSharper.Caches/
+*.sqlite
