@@ -12,6 +12,10 @@ namespace ProvaWeb.Models
         [MinLength(2, ErrorMessage = "O minimo de caracteres é 2")]
         public string Nome { get; set; }
 
+        [DisplayName("Categoria")]
+        [MinLength(2, ErrorMessage = "O minimo de caracteres é 2")]
+        public string Categoria { get; set; }
+
         [DisplayName("Preço")] 
         [Precision(18, 2)]
         public decimal Preco { get; set; }
